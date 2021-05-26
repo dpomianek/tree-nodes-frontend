@@ -1,0 +1,46 @@
+.Nodes {
+  margin: 20px 40px;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Nodes--buttons {
+  margin: 20px 20px;
+  margin-top: 0;
+}
+
+.Nodes--buttons input {
+  height: 30px;
+  margin-right: 20px;
+  font-size: 1em;
+  padding: 0 5px;
+}
+
+.Nodes--buttons button {
+  border: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Nodes--buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Nodes--buttons button.active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.Nodes--buttons button.active:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Nodes--message {
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  margin-top: 0;
+  background-color: green;
+}
